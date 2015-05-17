@@ -1,1 +1,1 @@
-http://zahnaerzte-zulauf.local/
+http://zahnaerzte-zulauf.com/
