@@ -1,18 +1,18 @@
-mysql_root_password: devpw
+mysql_root_password: dekaup
 
 web_user: vagrant
 
 wordpress_sites:
-  roots-example-project.com:
+  zahnaerzte-zulauf.com:
     site_hosts:
-      - roots-example-project.dev
+      - zahnaerzte-zulauf.local
     local_path: '../site' # path targeting local Bedrock project directory (relative to Ansible root)
-    repo: git@github.com:roots/bedrock.git
+    repo: git@github.com:datracka/zaz.git
     site_install: true
-    site_title: Roots Example Project
+    site_title: Zahnaerzte Zulauf
     admin_user: admin
     admin_password: admin
-    admin_email: admin@roots-example-project.dev
+    admin_email: admin@zahnaerzte-zulauf.local
     multisite:
       enabled: false
       subdomains: false
@@ -20,12 +20,12 @@ wordpress_sites:
       enabled: false
     system_cron: true
     env:
-      wp_home: http://roots-example-project.dev
-      wp_siteurl: http://roots-example-project.dev/wp
+      wp_home: http://zahnaerzte-zulauf.local
+      wp_siteurl: http://zahnaerzte-zulauf.local/wp
       wp_env: development
-      db_name: roots_example_project_dev
-      db_user: roots_example_project_dbuser
-      db_password: roots_example_project_dbpassword
+      db_name: zaz
+      db_user: zaz_dbuser
+      db_password: 12345678a
 
 php_error_reporting: 'E_ALL'
 php_display_errors: 'On'
@@ -34,7 +34,7 @@ php_track_errors: 'On'
 php_mysqlnd_collect_memory_statistics: 'On'
 php_opcache_enable: 0
 
-xdebug_install: false
+xdebug_install: true
 php_xdebug_remote_enable: true
 php_xdebug_remote_connect_back: true
 php_xdebug_remote_host: localhost
