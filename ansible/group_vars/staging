@@ -2,11 +2,12 @@ mysql_root_password: stagingpw
 
 wordpress_sites:
   example.com:
-    site_hosts:
-      - staging.example.com
-      - 192.168.50.5
+    zaz.vicensfayos.com:
+      - zaz.vicensfayos.com
+      - 52.25.73.34
     local_path: '../example.com' # path targeting local Bedrock project directory (relative to Ansible root)
     repo: git@github.com:roots/bedrock.git
+    subtree: site
     multisite:
       enabled: false
       subdomains: false

@@ -8,6 +8,7 @@
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 $nav_menus = get_terms( 'nav_menu' );
+$nav_menus2 = get_terms( 'nav_menu_item' );
 $nav_menus_clear = array( 0 => _x('Primary location menu', 'backend metabox', 'the7mk2'), -1 => _x('Default menu', 'backend metabox', 'the7mk2') );
 
 foreach ( $nav_menus as $nav_menu ) {

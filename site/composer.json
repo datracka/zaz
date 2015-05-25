@@ -61,6 +61,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/datracka/visual-composer-addons.git"
+    },
+    {
+      "type": "vcs",
+      "url": "git@github.com:datracka/dynamic-menu-manager.git"
     }
   ],
   "require": {
@@ -74,7 +78,8 @@
     "datracka/contact-form-7": "dev-master",
     "datracka/dt-dummy": "dev-master",
     "datracka/visual-composer": "dev-master",
-    "datracka/visual-composer-addons": "dev-master"
+    "datracka/visual-composer-addons": "dev-master",
+    "datracka/dynamic-menu-manager": "dev-master"
   },
   "extra": {
     "installer-paths": {

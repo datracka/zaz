@@ -1,4 +1,4 @@
-mysql_root_password: dekaup
+mysql_root_password: devpw
 
 web_user: vagrant
 
@@ -23,9 +23,9 @@ wordpress_sites:
       wp_home: http://zahnaerzte-zulauf.local
       wp_siteurl: http://zahnaerzte-zulauf.local/wp
       wp_env: development
-      db_name: zaz
-      db_user: zaz_dbuser
-      db_password: 12345678a
+      db_name: roots_example_project_dev
+      db_user: roots_example_project_dbuser
+      db_password: roots_example_project_dbpassword
 
 php_error_reporting: 'E_ALL'
 php_display_errors: 'On'

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f26f25f44e58f4aabb7d0282c9c1c141",
+    "hash": "69b2d1fe8c72fc0156fb4aad2f5ed219",
     "packages": [
         {
             "name": "composer/installers",
@@ -142,6 +142,27 @@
                 "issues": "https://github.com/datracka/dt-dummy/issues"
             },
             "time": "2015-05-17 16:15:32"
+        },
+        {
+            "name": "datracka/dynamic-menu-manager",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datracka/dynamic-menu-manager.git",
+                "reference": "d94ccca33faf2db804f34491a7d264a5cc75aa11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datracka/dynamic-menu-manager/zipball/d94ccca33faf2db804f34491a7d264a5cc75aa11",
+                "reference": "d94ccca33faf2db804f34491a7d264a5cc75aa11",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "support": {
+                "source": "https://github.com/datracka/dynamic-menu-manager/tree/master",
+                "issues": "https://github.com/datracka/dynamic-menu-manager/issues"
+            },
+            "time": "2015-05-25 11:16:14"
         },
         {
             "name": "datracka/layerslider",
@@ -412,7 +433,8 @@
         "datracka/contact-form-7": 20,
         "datracka/dt-dummy": 20,
         "datracka/visual-composer": 20,
-        "datracka/visual-composer-addons": 20
+        "datracka/visual-composer-addons": 20,
+        "datracka/dynamic-menu-manager": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
