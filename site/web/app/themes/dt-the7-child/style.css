@@ -7,3 +7,35 @@ Version: 1.0.0
 License: This WordPress theme is comprised of two parts: (1) The PHP code and integrated HTML are licensed under the GPL license as is WordPress itself.  You will find a copy of the license text in the same directory as this text file. Or you can read it here: http://wordpress.org/about/gpl/ (2) All other parts of the theme including, but not limited to the CSS code, images, and design are licensed according to the license purchased. Read about licensing details here: http://themeforest.net/licenses/regular_extended
 Template: dt-the7
 */
+
+@font-face{
+    font-family:"YogaSansWeb W03 Regular";
+    src:url("fonts/1468633/yoga-regular.eot?#iefix");
+    src:url("fonts/1468633/yoga-regular.eot?#iefix") format("eot"),
+    url("fonts/1468633/yoga-regular.woff2") format("woff2"),
+    url("fonts/1468633/yoga-regular.woff") format("woff"),
+    url("fonts/1468633/yoga-regular.ttf") format("truetype"),
+    url("fonts/1468633/yoga-regular.svg#yoga-regular") format("svg");
+}
+
+@font-face{
+    font-family:"YogaSansWebPro-Bold";
+    src:url("fonts/1468621/yoga-bold.eot?#iefix");
+    src:url("fonts/1468621/yoga-bold.eot?#iefix") format("eot"),
+    url("fonts/1468621/yoga-bold.woff2") format("woff2"),
+    url("fonts/1468621/yoga-bold.woff") format("woff"),
+    url("fonts/1468621/yoga-bold.ttf") format("truetype"),
+    url("fonts/1468621/yoga-bold.svg#yoga-regular") format("svg");
+}
+
+/* overrides leistungen top bar */
+
+.article-top-bar .wf-container-top {
+    border-bottom: 0px;
+}
+
+/* overrides home slideshow porthole background */
+
+#main-slideshow.fixed {
+    background-color: transparent;
+}

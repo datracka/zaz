@@ -45,7 +45,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 				$copyrights = $config->get( 'template.bottom_bar.copyrights' );
 				$credits = $config->get( 'template.bottom_bar.credits' );
-				
+
 				if ( $copyrights || $credits ) : ?>
 
 					<div class="wf-td">

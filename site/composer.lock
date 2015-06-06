@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "69b2d1fe8c72fc0156fb4aad2f5ed219",
+    "hash": "c9b5847c43843bce6f7fd8b881224eaa",
     "packages": [
         {
             "name": "composer/installers",
@@ -100,27 +100,6 @@
                 "zikula"
             ],
             "time": "2015-02-18 17:17:01"
-        },
-        {
-            "name": "datracka/contact-form-7",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/datracka/contact-form-7.git",
-                "reference": "e647735e6fe473ef2f8fd13289bc418ea3226600"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/datracka/contact-form-7/zipball/e647735e6fe473ef2f8fd13289bc418ea3226600",
-                "reference": "e647735e6fe473ef2f8fd13289bc418ea3226600",
-                "shasum": ""
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/datracka/contact-form-7/tree/master",
-                "issues": "https://github.com/datracka/contact-form-7/issues"
-            },
-            "time": "2015-05-17 12:49:50"
         },
         {
             "name": "datracka/dt-dummy",
@@ -430,7 +409,6 @@
     "stability-flags": {
         "datracka/revslider": 20,
         "datracka/layerslider": 20,
-        "datracka/contact-form-7": 20,
         "datracka/dt-dummy": 20,
         "datracka/visual-composer": 20,
         "datracka/visual-composer-addons": 20,

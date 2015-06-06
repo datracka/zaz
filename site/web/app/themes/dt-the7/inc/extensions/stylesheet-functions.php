@@ -288,7 +288,9 @@ if ( ! function_exists( 'dt_stylesheet_get_websafe_fonts' ) ) :
             'Verdana:600'                   => 'Verdana Bold',
             'Verdana:400italic'             => 'Verdana Italic',
             'Verdana:600italic'             => 'Verdana Bold Italic',
-            'Webdings'                      => 'Webdings'
+            'Webdings'                      => 'Webdings',
+            'YogaSansWeb W03 Regular'       => 'YogaSansWeb W03 Regular',
+            'YogaSansWebPro-Bold'           => 'YogaSansWebPro-Bold'
         );
         return apply_filters( 'dt_stylesheet_get_websafe_fonts', $fonts );
     }
