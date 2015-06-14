@@ -24,18 +24,22 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 				?>
 				<div id="branding-bottom" class="wf-td"><?php
 
-					if ( 'microsite' == $config->get( 'template' ) ) {
-						$logo_target_link = get_post_meta( $post->ID, '_dt_microsite_logo_link', true );
-
-						if ( $logo_target_link ) {
-							echo sprintf('<a href="%s">%s</a>', esc_url( $logo_target_link ), $bottom_logo);
-						} else {
-							echo $bottom_logo;
-						}
-
-					} else {
-						echo sprintf('<a href="%s">%s</a>', esc_url( home_url( '/' ) ), $bottom_logo);
-					}
+                    /**
+                     * TODO move to a child theme
+                     *
+                     */
+//					if ( 'microsite' == $config->get( 'template' ) ) {
+//						$logo_target_link = get_post_meta( $post->ID, '_dt_microsite_logo_link', true );
+//
+//						if ( $logo_target_link ) {
+//							echo sprintf('<a href="%s">%s</a>', esc_url( $logo_target_link ), $bottom_logo);
+//						} else {
+//							echo $bottom_logo;
+//						}
+//
+//					} else {
+//						echo sprintf('<a href="%s">%s</a>', esc_url( home_url( '/' ) ), $bottom_logo);
+//					}
 
 				?></div>
 				<?php

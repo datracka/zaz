@@ -39,3 +39,63 @@ Template: dt-the7
 #main-slideshow.fixed {
     background-color: transparent;
 }
+
+/* overrides default body image */
+
+body {
+    background-image: none;
+}
+
+/* overrides Zulauf praxis distance between name and profession */
+
+.team-author-name, .vf-team-author-name {
+    margin-bottom: -2px !important;
+    font: bold normal normal 20px / 28px "YogaSansWeb-Pro Bold", Helvetica, Arial, Verdana, sans-serif;
+    text-align: center;
+}
+
+/** new class for contact */
+
+.vf-contact-email {
+    color: #5B6770;
+
+}
+
+.vf-contact-email:hover {
+    color: #D0DF00;
+}
+
+/** link download */
+
+.vf-link-download {
+    text-align: center;
+    display: block;
+    font-size: 52px;
+    color: white !important;
+}
+
+/* downloads tweaks */
+
+.vf-text-download {
+    color: #ffffff !important;
+    display: block;
+    text-align: center;
+}
+.vf-link-download:hover {
+    color: #D0DF00 !important;
+}
+
+/** overrided megamenu submenu */
+
+.menu-item-object-dt_team {
+    height:50px;
+}
+.menu-item-object-dt_team.first {
+    margin-top:5px;
+}
+
+.menu-item-object-page {
+    letter-spacing: 1px;
+}
+
+
