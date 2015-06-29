@@ -33,5 +33,18 @@ if ( presscore_is_content_visible() ): ?>
 
 </div><!-- #page -->
 <?php wp_footer(); ?>
+<script language="javascript">
+
+    /**
+     * remove from the item praxis the href to avoid linking.
+     */
+    jQuery(document).ready(function() {
+        var $a = jQuery("li.menu-item-28 > a");
+        $a.each(function(i,v) {
+            jQuery(v).removeAttr("href");
+        });
+
+    });
+</script>
 </body>
 </html>

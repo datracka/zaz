@@ -70,7 +70,7 @@ body {
 .vf-link-download {
     text-align: center;
     display: block;
-    font-size: 52px;
+    font-size: 36px;
     color: white !important;
 }
 
@@ -98,4 +98,61 @@ body {
     letter-spacing: 1px;
 }
 
+/** overrided submenu font */
 
+.sub-nav > ul > li > a {
+    font: normal normal 16px / 20px "YogaSansWeb W03 Regular", Helvetica, Arial, Verdana, sans-serif;
+}
+
+li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
+    width: 200px;
+}
+
+/** tweak layer slider */
+
+.ls-wp-fullwidth-container {
+    margin-top: -50px !important;
+}
+
+/* start button home page */
+
+/*.vf_button {*/
+    /*text-align: center;*/
+    /*height:200px;*/
+/*}*/
+
+/*.vf_start_button {*/
+    /*display: block;*/
+    /*text-decoration: none;*/
+    /*font-family:  "YogaSansWeb W03 Regular", Helvetica, Arial, Verdana, sans-serif;*/
+    /*color: white;*/
+    /*background-color: #5b6770;*/
+    /*width: 200px;*/
+/*}*/
+/*.vf_start_button span {*/
+    /*display: inline-block;*/
+    /*padding: 20px 30px 20px 30px;*/
+    /*color: white;*/
+/*}*/
+
+/*.vf_start_button:hover {*/
+    /*background-color: #D0DF00;*/
+/*}*/
+
+.vf-start-link:hover {
+    background-color: #D0DF00;
+}
+
+/* disabled praxis parent option menu */
+
+.menu-item-28 {
+    cursor: pointer !important;
+}
+
+.menu-item-28:hover:enabled {
+
+}
+
+.single-dt_team .menu-item-28 a i.underline {
+    width : 100% !important;
+}
