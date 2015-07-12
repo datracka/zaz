@@ -156,3 +156,42 @@ li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
 .single-dt_team .menu-item-28 a i.underline {
     width : 100% !important;
 }
+
+/** overrides gallery arrows */
+
+.mfp-arrow-left .mfp-b, .mfp-arrow-left:before {
+    border-right: 0px !important;
+}
+
+.mfp-arrow-right .mfp-b, .mfp-arrow-right:before {
+    border-left: 0px !important;
+}
+
+.vf-contact-opening-times {
+    text-align: right;
+}
+
+/* tablet adjustments */
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    .vf-contact-opening-times {
+        text-align: left;
+    }
+}
+
+/* mobile adjustments */
+
+@media (max-width: 480px) {
+
+    /** add margin bottom behandler in zulauf */
+
+    .wf-cell {
+        margin-bottom: 32px;
+    }
+
+    .vf-contact-opening-times {
+        text-align: left;
+    }
+}
+
