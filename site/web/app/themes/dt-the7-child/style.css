@@ -8,20 +8,20 @@ License: This WordPress theme is comprised of two parts: (1) The PHP code and in
 Template: dt-the7
 */
 
-@font-face{
-    font-family:"YogaSansWeb W03 Regular";
-    src:url("fonts/1468633/yoga-regular.eot?#iefix");
-    src:url("fonts/1468633/yoga-regular.eot?#iefix") format("eot"),
+@font-face {
+    font-family: "YogaSansWeb W03 Regular";
+    src: url("fonts/1468633/yoga-regular.eot?#iefix");
+    src: url("fonts/1468633/yoga-regular.eot?#iefix") format("eot"),
     url("fonts/1468633/yoga-regular.woff2") format("woff2"),
     url("fonts/1468633/yoga-regular.woff") format("woff"),
     url("fonts/1468633/yoga-regular.ttf") format("truetype"),
     url("fonts/1468633/yoga-regular.svg#yoga-regular") format("svg");
 }
 
-@font-face{
-    font-family:"YogaSansWebPro-Bold";
-    src:url("fonts/1468621/yoga-bold.eot?#iefix");
-    src:url("fonts/1468621/yoga-bold.eot?#iefix") format("eot"),
+@font-face {
+    font-family: "YogaSansWebPro-Bold";
+    src: url("fonts/1468621/yoga-bold.eot?#iefix");
+    src: url("fonts/1468621/yoga-bold.eot?#iefix") format("eot"),
     url("fonts/1468621/yoga-bold.woff2") format("woff2"),
     url("fonts/1468621/yoga-bold.woff") format("woff"),
     url("fonts/1468621/yoga-bold.ttf") format("truetype"),
@@ -81,6 +81,7 @@ body {
     display: block;
     text-align: center;
 }
+
 .vf-link-download:hover {
     color: #D0DF00 !important;
 }
@@ -88,10 +89,11 @@ body {
 /** overrided megamenu submenu */
 
 .menu-item-object-dt_team {
-    height:50px;
+    height: 50px;
 }
+
 .menu-item-object-dt_team.first {
-    margin-top:5px;
+    margin-top: 5px;
 }
 
 .menu-item-object-page {
@@ -117,26 +119,26 @@ li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
 /* start button home page */
 
 /*.vf_button {*/
-    /*text-align: center;*/
-    /*height:200px;*/
+/*text-align: center;*/
+/*height:200px;*/
 /*}*/
 
 /*.vf_start_button {*/
-    /*display: block;*/
-    /*text-decoration: none;*/
-    /*font-family:  "YogaSansWeb W03 Regular", Helvetica, Arial, Verdana, sans-serif;*/
-    /*color: white;*/
-    /*background-color: #5b6770;*/
-    /*width: 200px;*/
+/*display: block;*/
+/*text-decoration: none;*/
+/*font-family:  "YogaSansWeb W03 Regular", Helvetica, Arial, Verdana, sans-serif;*/
+/*color: white;*/
+/*background-color: #5b6770;*/
+/*width: 200px;*/
 /*}*/
 /*.vf_start_button span {*/
-    /*display: inline-block;*/
-    /*padding: 20px 30px 20px 30px;*/
-    /*color: white;*/
+/*display: inline-block;*/
+/*padding: 20px 30px 20px 30px;*/
+/*color: white;*/
 /*}*/
 
 /*.vf_start_button:hover {*/
-    /*background-color: #D0DF00;*/
+/*background-color: #D0DF00;*/
 /*}*/
 
 .vf-start-link:hover {
@@ -154,7 +156,7 @@ li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
 }
 
 .single-dt_team .menu-item-28 a i.underline {
-    width : 100% !important;
+    width: 100% !important;
 }
 
 /** overrides gallery arrows */
@@ -185,7 +187,6 @@ li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
 @media (max-width: 480px) {
 
     /** add margin bottom behandler in zulauf */
-
     .wf-cell {
         margin-bottom: 32px;
     }
@@ -195,3 +196,43 @@ li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
     }
 }
 
+/* quick fix for Startsite */
+
+@media (max-width: 480px) {
+
+    #page {
+        position: static !important;
+    }
+}
+
+.vf-start-site-container {
+    position: absolute;
+    background-color: transparent;
+    display: table;
+    background-size: cover;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.vf-start-site-container .vf-start-site-wrapper {
+    display:table-cell; text-align: center; vertical-align: middle
+}
+
+.vf-start-site-container .vf-start-site-container-link {
+    border: 2px solid #5b6770; display: block; width: 200px; padding:10px; margin: 0 auto;
+}
+
+.vf-start-site-container .vf-button-margin-1 {
+    margin-top:-40px;
+}
+
+.vf-start-site-container .vf-button-margin-2 {
+    margin-top:30px;
+}
+
+.vf-start-site-container .vf-start-site-link {
+    color:#5b6770;border-color:#5b6770; text-decoration: none;
+}
