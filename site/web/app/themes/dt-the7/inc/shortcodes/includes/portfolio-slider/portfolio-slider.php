@@ -100,7 +100,7 @@ if ( ! class_exists( 'DT_Shortcode_Portfolio_Slider', false ) ) {
 				$this->restore_post_object();
 			}
 
-			return $output;
+			return "";
 		}
 
 		protected function sanitize_attributes( &$atts ) {

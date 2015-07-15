@@ -15,8 +15,10 @@ $config = Presscore_Config::get_instance();
 <div class="project-list-content">
 
 <?php if ( $config->get( 'show_titles' ) && get_the_title() ) : ?>
+    <?php
 
-	<h3 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php echo the_title_attribute( 'echo=0' ); ?>" rel="bookmark"><?php the_title(); ?></a></h3>
+    ?>
+	<p class="vf-title-portfolio-project entry-title"><a href="<?php the_permalink(); ?>" title="<?php echo the_title_attribute( 'echo=0' ); ?>" rel="bookmark"><?php the_title(); ?></a></p>
 
 <?php endif; ?>
 
@@ -26,7 +28,8 @@ $config = Presscore_Config::get_instance();
 
 <?php endif; ?>
 
-<?php echo presscore_new_posted_on( 'dt_portfolio' ); ?>
+<?php //vicens fix removed title in post ?>
+<?php //echo presscore_new_posted_on( 'dt_portfolio' ); ?>
 
 <?php echo presscore_post_edit_link(); ?>
 

@@ -106,8 +106,20 @@ body {
     font: normal normal 16px / 20px "YogaSansWeb W03 Regular", Helvetica, Arial, Verdana, sans-serif;
 }
 
+/** override submenu mobile font */
+
+.dl-menuwrapper li > a {
+    font: normal normal 14px / 16px "YogaSansWeb W03 Regular", Helvetica, Arial, Verdana, sans-serif;
+}
+
 li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
     width: 200px;
+}
+
+/* removed floating text in portfolio details */
+
+.dt_portfolio .wf-cell .floating-content {
+    position: static !important;
 }
 
 /** tweak layer slider */
@@ -117,6 +129,19 @@ li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
 }
 
 /* start button home page */
+
+.vf-link-start-site {
+    color: #ffffff !important;
+    border-radius: 3px;
+    border-color: #ffffff !important;
+}
+
+.full-width-wrap {
+    opacity: 1;
+    width: 100% !important;
+    margin-left: 0px !important;
+}
+
 
 /*.vf_button {*/
 /*text-align: center;*/
@@ -222,7 +247,7 @@ li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
 }
 
 .vf-start-site-container .vf-start-site-container-link {
-    border: 2px solid #5b6770; display: block; width: 200px; padding:10px; margin: 0 auto;
+    border: 2px solid #ffffff; display: block; width: 200px; padding:10px; margin: 0 auto;
 }
 
 .vf-start-site-container .vf-button-margin-1 {
@@ -234,5 +259,52 @@ li:not(.dt-mega-menu) .sub-nav, li:not(.dt-mega-menu) .sub-nav > ul {
 }
 
 .vf-start-site-container .vf-start-site-link {
-    color:#5b6770;border-color:#5b6770; text-decoration: none;
+    color:#fff;border-color:#fff; text-decoration: none;
+}
+
+/** fixed custom background issue */
+body.custom-background {
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    background-attachment: fixed !important;
+}
+
+/* set portfolio related projects arrows centered: */
+
+.related-projects .next {
+    margin-top:-40px !important;
+}
+
+.related-projects .prev {
+    margin-top:-40px !important;
+}
+
+.fullwidth-slider .project-list-media .buttons-on-img {
+    cursor: pointer;
+}
+.fullwidth-slider .project-list-media .buttons-on-img > a {
+    z-index: -2;
+
+}
+
+.fullwidth-slider .ts-cont{
+    left: 0px !important;
+
+}
+
+.vf-title-portfolio-project {
+    margin-top:-47px;
+    background-color: #5b6770;
+    opacity: 0.7;
+    text-align: left;
+
+}
+.vf-title-portfolio-project a {
+    text-decoration: none;
+    color: #D0DF00;
+    line-height: 20px;
+    z-index: 2;
+    font-size: 12px;
+    padding-left: 10px;
+
 }

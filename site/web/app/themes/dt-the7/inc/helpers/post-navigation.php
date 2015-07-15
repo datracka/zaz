@@ -9,7 +9,7 @@
 if ( ! function_exists( 'presscore_get_next_post_link' ) ) :
 
 	function presscore_get_next_post_link( $link_text = '', $link_class = '', $dummy = '' ) {
-		$post_link = get_next_post_link( '%link', $link_text );
+		$post_link = get_next_post_link( '%link', $link_text); //vicens extra params -> , true, '', 'dt_portfolio_category'
 		if ( $post_link ) {
 			return str_replace( 'href=', 'class="'. esc_attr( $link_class ) . '" href=', $post_link );
 		}
@@ -22,7 +22,7 @@ endif;
 if ( ! function_exists( 'presscore_get_previous_post_link' ) ) :
 
 	function presscore_get_previous_post_link( $link_text = '', $link_class = '', $dummy = '' ) {
-		$post_link = get_previous_post_link( '%link', $link_text );
+		$post_link = get_previous_post_link( '%link', $link_text ); //vicens extra params -> , true, '', 'dt_portfolio_category'
 		if ( $post_link ) {
 			return str_replace( 'href=', 'class="'. esc_attr( $link_class ) . '" href=', $post_link );
 		}
@@ -111,11 +111,11 @@ if ( ! function_exists( 'presscore_single_post_navigation_bar' ) ) :
 			}
 
             /**
-             * FIXME Commented top bar with category / date / admin information. Should be implemented in the child theme
+             * Vicens
              */
 			echo '<div class="' . $article_top_bar_html_class . '"><div class="wf-wrap"><div class="wf-container-top">';
 
-			//echo presscore_get_post_meta_wrap( $post_meta );
+			echo presscore_get_post_meta_wrap( $post_meta );
 			echo '<div class="navigation-inner"><div class="single-navigation-wrap">' . $post_navigation . '</div></div>';
 
 			echo '</div></div></div>';
