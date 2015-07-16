@@ -283,7 +283,7 @@ body.custom-background {
     cursor: pointer;
 }
 .fullwidth-slider .project-list-media .buttons-on-img > a {
-    z-index: -2;
+    z-index: 0;
 
 }
 

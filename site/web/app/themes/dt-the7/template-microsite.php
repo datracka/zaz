@@ -56,18 +56,6 @@ get_header(); ?>
 
 <?php
         //vicens - hot fix for full screen view in mobile. Shows a background image with the buttons centered.
-?>
-    <div class="vf-start-site-container">
-        <div class="vf-start-site-wrapper"> 
-            <div class="vf-start-site-container-link vf-button-margin-1">
-                  <a class="vf-start-site-link vf-button-margin-1" href="?page_id=27263" target="_self">Zahnärzte
-                    Zulauf</a> 
-            </div>
-            <div class="vf-start-site-container-link vf-button-margin-2">
-                  <a class="vf-start-site-link" href="?page_id=27294" target="_self">Oralchirurgie Dr.
-                    Tim Zulauf</a> 
-            </div>
-        </div>
-    </div>
+?><div class="vf-start-site-container"><div class="vf-start-site-wrapper"> <div class="vf-start-site-container-link vf-button-margin-1"><a class="vf-start-site-link vf-button-margin-1" href="?page_id=27263" target="_self">Zahnärzte Zulauf</a> </div><div class="vf-start-site-container-link vf-button-margin-2"><a class="vf-start-site-link" href="?page_id=27294" target="_self">Oralchirurgie Dr. Tim Zulauf</a> </div></div></div>
 
 <?php get_footer(); ?>
