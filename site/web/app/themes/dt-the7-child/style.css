@@ -308,3 +308,13 @@ body.custom-background {
     padding-left: 10px;
 
 }
+
+.dt-fancy-separator.title-left.fancy-projects-title {
+    background-image: none;
+    padding-left:0px;
+
+}
+
+.dt-fancy-separator.title-left.fancy-projects-title .dt-fancy-title .separator-right {
+    margin-left: 0px;
+}
