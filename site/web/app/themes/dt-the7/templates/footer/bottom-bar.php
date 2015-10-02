@@ -88,6 +88,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
                 <div class="wf-td">
                     <div class="wf-float-right">
                             <a href="?page_id=27710" target="_blank">Impressum</a>
+                        <!--a href="?page_id=27733" target="_blank">Impressum</a-->
                     </div>
                 </div>
 
