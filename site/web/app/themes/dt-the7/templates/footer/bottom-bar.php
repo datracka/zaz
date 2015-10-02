@@ -85,6 +85,12 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 				<?php endif; ?>
 
+                <div class="wf-td">
+                    <div class="wf-float-right">
+                            <a href="?page_id=27710" target="_blank">Impressum</a>
+                    </div>
+                </div>
+
 			</div>
 		</div><!-- .wf-container-bottom -->
 	</div><!-- .wf-wrap -->
